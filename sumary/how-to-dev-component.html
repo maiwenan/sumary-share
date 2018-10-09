@@ -26,8 +26,8 @@
       <div class="slides">
         <section 
           data-markdown="../markdown/how-to-dev-component.md"  
-          data-separator="^\n\n\n"  
-          data-separator-vertical="^\n\n"  
+          data-separator="^\r?\n\r?\n\r?\n"  
+          data-separator-vertical="^\r?\n\r?\n"  
           data-separator-notes="^Note:"  
         ></section>
       </div>
@@ -41,6 +41,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				history: true,
 				dependencies: [
 					{ src: '../plugin/markdown/marked.js' },
 					{ src: '../plugin/markdown/markdown.js' },
