@@ -57,7 +57,9 @@ body {
 	color: #000;
 }
 
-
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  text-align: center;
+}
 /*********************************************
  * VIEW FRAGMENTS
  *********************************************/
@@ -612,7 +614,7 @@ $controlsArrowAngleActive: 36deg;
 
 	overflow: visible;
 	z-index: 1;
-	text-align: center;
+	text-align: left;
 	perspective: 600px;
 	perspective-origin: 50% 40%;
 }
@@ -1074,7 +1076,7 @@ $controlsArrowAngleActive: 36deg;
 	top: 0;
 	left: 50%;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 }
 
 .no-transforms .reveal .controls,
